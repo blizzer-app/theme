@@ -22,6 +22,7 @@
     "prettier": "prettier",
     "prettier:check": "prettier --check src",
     "prettier:fix": "prettier --write src",
+    "prepublish": "npm run build",
     "sort-package-json": "sort-package-json",
     "sort-package-json:check": "sort-package-json --check package.json",
     "sort-package-json:fix": "sort-package-json package.json",
