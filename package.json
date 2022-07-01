@@ -1,11 +1,10 @@
 {
-  "name": "@blizzer/theme",
-  "version": "0.1.0",
+  "name": "@blizzer-app/theme",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "der Daniel",
   "main": "dist/index.js",
   "module": "dist/blizzer-theme.esm.js",
-  "typings": "dist/index.d.ts",
   "files": [
     "dist",
     "src"
