@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo '🐶 Husky Pre-Push Hook'
+
+echo '1/4 TypeScript'
+npm run tsc:check
+
+echo '2/4 Linting'
+npm run lint-staged
+
+echo '3/4 package.json'
+npm run sort-package-json:check
+
+echo '4/4 Testing'
+npm run test

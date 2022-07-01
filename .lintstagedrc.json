@@ -1,0 +1,6 @@
+{
+  "src/**/*.ts": [
+    "npm run eslint:check",
+    "npm run prettier:check"
+  ]
+}
