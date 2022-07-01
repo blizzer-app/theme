@@ -11,7 +11,7 @@ export interface Component {
   name: string
   scope: ComponentScope
   preview: string
-  component: FunctionComponent
+  component: FunctionComponent<unknown>
   properties: Properties
 }
 
