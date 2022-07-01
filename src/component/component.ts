@@ -11,7 +11,9 @@ export interface Component {
   name: string
   scope: ComponentScope
   preview: string
-  component: FunctionComponent<unknown>
+  /*eslint-disable */
+  component: FunctionComponent<any>
+  /*eslint-enable */
   properties: Properties
 }
 
